@@ -1,0 +1,12 @@
+{
+  "name": "agent-test-kit",
+  "version": "0.1.0",
+  "description": "QA-grade testing for solo agent builders. Generates test cases for LangGraph agents and MCP servers, diagnoses flaky behavior, and audits existing test coverage.",
+  "author": {
+    "name": "YOUR_FULL_NAME_HERE",
+    "url": "https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE_HERE"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME_HERE/agent-test-kit",
+  "license": "MIT",
+  "keywords": ["agent", "testing", "langgraph", "mcp", "qa", "claude-code"]
+}

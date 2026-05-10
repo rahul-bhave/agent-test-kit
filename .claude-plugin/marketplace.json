@@ -1,0 +1,18 @@
+{
+  "name": "agent-test-kit",
+  "owner": {
+    "name": "YOUR_FULL_NAME_HERE",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME_HERE"
+  },
+  "description": "QA-grade testing tooling for solo developers building agents.",
+  "plugins": [
+    {
+      "name": "agent-test-kit",
+      "source": "./",
+      "description": "Generate test cases, diagnose flaky behavior, and audit test coverage for LangGraph agents and MCP servers — built by a QA automation engineer turned agentic AI builder.",
+      "version": "0.1.0",
+      "category": "testing",
+      "tags": ["testing", "agents", "langgraph", "mcp", "qa", "evaluation"]
+    }
+  ]
+}
