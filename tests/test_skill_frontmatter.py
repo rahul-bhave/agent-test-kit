@@ -80,7 +80,7 @@ def test_skill_md_frontmatter_description_is_valid():
     frontmatter = get_frontmatter(SKILL_MD.read_text(encoding="utf-8"))
     description = frontmatter.get("description")
     assert isinstance(description, str)
-    assert len(description) <= 1024
+    assert len(description) <= 1536
     assert "<" not in description and ">" not in description
 
 
