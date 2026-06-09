@@ -1,8 +1,8 @@
 {
   "name": "agent-test-kit",
   "owner": {
-    "name": "YOUR_FULL_NAME_HERE",
-    "url": "https://github.com/YOUR_GITHUB_USERNAME_HERE"
+    "name": "RAHUL BHAVE",
+    "url": "https://github.com/rahul-bhave/agent-test-kit"
   },
   "description": "QA-grade testing tooling for solo developers building agents.",
   "plugins": [
