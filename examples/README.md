@@ -1,14 +1,16 @@
 # Examples
 
-Sample agent code used for testing the skill against real-world patterns.
-These files are NOT distributed as part of the skill — they exist for skill
-development and validation only.
+Sample agent code for trying out agent-test-kit. These files are NOT
+distributed as part of the skill — they exist as a playground and as
+reference fixtures for validating the skill's output.
 
-- `sample_langgraph_agent.py` — minimal LangGraph agent demonstrating common
-  patterns (state, tools, conditional edges). Used to validate Command 1
-  (test generation) and Command 3 (gap audit) output quality.
-- `sample_mcp_server.py` — minimal MCP server with two tool handlers. Used
-  to validate Command 1 output for MCP-specific test patterns.
+- `sample_langgraph_agent.py` — a minimal LangGraph-style agent (typed state,
+  a search tool, conditional routing). It intentionally contains gaps: no
+  recursion/termination guard, and happy-path-only tool handling. The skill
+  should surface these when generating tests or auditing coverage.
+- `sample_mcp_server.py` — a minimal MCP-style server with two tool handlers:
+  one read-only with no input validation, one side-effecting and
+  non-idempotent. Both gaps are intentional.
 
-Both files will be populated with real reference code during Weekend 2's
-validation phase. Currently placeholders.
+To try the skill: open one of these files in Claude Code with agent-test-kit
+installed, then ask "test my agent" or "audit my tests".
